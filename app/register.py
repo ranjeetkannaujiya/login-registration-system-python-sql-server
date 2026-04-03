@@ -15,14 +15,14 @@ class Register:
 
         # ========== SET BACKGROUND IMAGE ==========
         # Load, resize, and display the main background image
-        self.bg_img = Image.open("Images/bgimg.png")
+        self.bg_img = Image.open("assets/bgimg.png")
         self.bg_img = self.bg_img.resize((1290, 780), Image.LANCZOS)  # LANCZOS: high-quality resizing
         self.bg = ImageTk.PhotoImage(self.bg_img)
         bg = Label(self.root, image=self.bg).place(x=200, y=0, width=1290, height=780)
 
         # ========== SET SIDE IMAGE ==========
         # Load and display the decorative side image
-        self.side_img = Image.open("Images/side.png")
+        self.side_img = Image.open("assets/side.png")
         self.side_img = self.side_img.resize((400, 500), Image.LANCZOS)
         self.side = ImageTk.PhotoImage(self.side_img)
         side = Label(self.root, image=self.side).place(x=80, y=100, width=400, height=500)

@@ -1,15 +1,20 @@
 # 🔐 Login & Registration System
 
-Python + MS SQL Server based authentication system.
+A backend-based Login and Registration System built using **Python**, **Tkinter**, and **SQL Server**.  
+This project demonstrates user authentication, database integration, and basic backend logic.
 
-## Features
-- Login & Registration
-- Database Connectivity
-- Tkinter GUI
+## 🚀 Features
+
+- User Registration
+- User Login Authentication
+- SQL Server Database Integration
+- Error Handling
+- Clean UI using Tkinter 
 
 ## Tech Stack
 - Python
-- SQL Server
+- Tkinter (GUI)
+- SQL Server (SSMS)
 - pyodbc
 
 ## Setup
@@ -19,3 +24,5 @@ Python + MS SQL Server based authentication system.
 
 ## Author
 Ranjeet Kannaujiya
+
+## 📂 Project Structure
