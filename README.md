@@ -11,6 +11,14 @@ This project demonstrates user authentication, database integration, and basic b
 - Error Handling
 - Clean UI using Tkinter 
 
+## 📷 Output Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Registration Page
+![Register](screenshots/register.png)
+
 ## Tech Stack
 - Python
 - Tkinter (GUI)
